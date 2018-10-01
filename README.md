@@ -1,6 +1,6 @@
 # macOS Dynamic Desktop Sample Code
 
-Companion playgrounds to the [NSHipster article about macOS Dynamic Desktops](https://nshipster.com/macos-dynamic-desktops/)
+Companion playgrounds to the [NSHipster article about macOS Dynamic Desktop](https://nshipster.com/macos-dynamic-desktop/)
 
 ## License
 
