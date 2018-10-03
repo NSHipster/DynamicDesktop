@@ -14,7 +14,7 @@ do {
 
 print("Solar Positions for \(DateFormatter.localizedString(from: time, dateStyle: .medium, timeStyle: .none)):")
 
-for time in Calendar.current.dayInterval(for: time).striding(by: 60 * 15)
+for time in Calendar.current.dateInterval(of: .day, for: time)!.striding(by: 60 * 15)
 {
     let position = solarPosition(for: location, at: time)
     position.elevation

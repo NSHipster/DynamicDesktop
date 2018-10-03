@@ -1,5 +1,6 @@
 import Foundation
 
+public let numberOfSecondsPerDay: TimeInterval = 60 * 60 * 24
 let numberOfSecondsPerMinute: TimeInterval = 60
 let numberOfSecondsPerHour: TimeInterval = numberOfSecondsPerMinute * 60
 
